@@ -8,7 +8,7 @@ class AddContact extends React.Component{
 
     add = (e) => {
         e.preventDefault(); // prevents the page from getting refreshed
-        if (this.state.name === "" || this.state.email === ""){
+        if (this.state.name === "" || this.state.email === ""){   // if name or email is empty
             alert("All the fields are Mandatory")
             return;
         }
