@@ -2,18 +2,20 @@ import React from "react";
 import './App.css';
 import Header from "./Header";
 import AddContact from "./AddContact";
-import ContactList from ".ContactList";
+// import ContactList from ".ContactList";
+
 
 
 function App() {
   return (
     <div className="App">
-      <h1> Wachira is around</h1>
+      {/* <h1> Wachira is around</h1> */}
+      
       <Header />
 
       <AddContact />
 
-      <ContactList />
+      {/* <ContactList /> */}
    
     </div>
   );
